@@ -33,12 +33,17 @@
     <section id="contactez-nous" class="hero">
         <div class="conteneur">
             <h1>Contactez-nous</h1><br><hr><br>
-            <form action="#contactez-nous">
-                <strong>Saisissez votre nom : </strong><input type="text"><br>
-                Saisissez votre prénom : <input type="text"><br>
-                Saisissez votre e-mail : <input type="email"><br>
-                Saisissez votre numéro de téléphone : <input type="tel"><br>
-                Saisissez votre message : <textarea name="" id=""></textarea><br>
+            <form action="#contactez-nous" method="post">
+                <label for="nom"> Saisissez votre nom : </label>
+                    <input type="text" required>
+                <label for="prenom"> Saisissez votre prénom : </label>
+                    <input type="text" required><br>
+                <label for="email"> Saisissez votre e-mail : </label>
+                    <input type="email" required><br>
+                <label for="numtel"> Saisissez votre numéro de téléphone : </label>
+                    <input type="tel" required><br>
+                <label for="msg"> Saisissez votre message : </label>
+                    <textarea name="msg" id="msg" minlength="250"></textarea><br><br>
                 <button type="submit">Envoyer</button>
             </form>
         </div>
