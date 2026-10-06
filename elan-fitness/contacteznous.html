@@ -35,15 +35,17 @@
             <h1>Contactez-nous</h1><br><hr><br>
             <form action="#contactez-nous" method="post">
                 <label for="nom"> Saisissez votre nom : </label>
-                    <input type="text" required>
+                    <input type="text" id="nom" name="nom" required><br>
                 <label for="prenom"> Saisissez votre prénom : </label>
-                    <input type="text" required><br>
+                    <input type="text" id="prenom" name="prenom" required><br>
                 <label for="email"> Saisissez votre e-mail : </label>
-                    <input type="email" required><br>
+                    <input type="email" id="email" name="email" required><br>
                 <label for="numtel"> Saisissez votre numéro de téléphone : </label>
-                    <input type="tel" required><br>
-                <label for="msg"> Saisissez votre message : </label>
-                    <textarea name="msg" id="msg" minlength="250"></textarea><br><br>
+                    <input type="tel" id="numtel" name="numtel" pattern="0[5-7][0-9]{8}" title="10 chiffres, par exemple 0612345678" placeholder="ex: 0663357492" required><br>
+                <label for="msg"> Saisissez votre message : </label><br>
+                    <textarea name="msg" id="msg" minlength="200" rows="3" cols="32" required></textarea><br><br>
+                <input type="checkbox" id="consent" name="consent" required>
+                  <label for="consent">J'accepte d'être recontacté</label><br><br>
                 <button type="submit">Envoyer</button>
             </form>
         </div>
