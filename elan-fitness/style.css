@@ -545,3 +545,30 @@ button:focus-visible {
   font-size: 13px;
   color: #94A3B8;
 }
+#contactez-nous {
+  border: #C2410C solid 15px;
+  border-radius: 15px;
+  margin: 50px;
+  padding: 4%;
+}
+
+#contactez-nous label{
+  font-size: xx-large;
+}
+
+#contactez-nous input{
+  border: 2px grey solid;
+  border-radius: 4px;
+  padding: 1%;
+}
+
+#titleContact {
+  border-bottom: 10px dashed #C2410C;
+}
+
+#titleContact h1 {
+  text-align: center;
+  padding: 2%;
+  margin-top: -5%;
+  font-size: 2cm;
+}
