@@ -307,6 +307,7 @@ button:focus-visible {
   display: flex;
   align-items: center;
   gap: 64px;
+  padding: 32px;
 }
 
 .apropos-texte {
