@@ -29,25 +29,27 @@
     </div>
   </header>
 
-  <main>
+  <main id="mainContact">
     <section id="contactez-nous">
         <div id="divCon" class="conteneur">
-          <div id="titleContact"><h1>Contactez-nous</h1></div>
+          <div id="titleContact"><h1>Contactez Nous</h1></div>
             <br><br>
             <form action="#contactez-nous" method="post">
-                <label for="nom"> Saisissez votre nom : </label>
+                <label for="nom" class="bold"> Nom </label>
                     <input type="text" id="nom" name="nom" required><br>
-                <label for="prenom"> Saisissez votre prénom : </label>
+                <label for="prenom" class="bold"> Prénom </label>
                     <input type="text" id="prenom" name="prenom" required><br>
-                <label for="email"> Saisissez votre e-mail : </label>
+                <label for="email" class="bold"> E-mail </label>
                     <input type="email" id="email" name="email" required><br>
-                <label for="numtel"> Saisissez votre numéro de téléphone : </label>
+                <label for="numtel" class="bold""> N° Tél </label>
                     <input type="tel" id="numtel" name="numtel" pattern="0[5-7][0-9]{8}" title="10 chiffres, par exemple 0612345678" placeholder="ex: 0663357492" required><br>
-                <label for="msg"> Saisissez votre message : </label><br>
-                    <textarea name="msg" id="msg" minlength="200" rows="3" cols="32" required></textarea><br><br>
-                <input type="checkbox" id="consent" name="consent" required>
-                  <label for="consent">J'accepte d'être recontacté</label><br><br>
-                <button type="submit">Envoyer</button>
+                <label for="msg" class="bold"> Saisissez votre message </label><br>
+                  <textarea name="msg" id="msg" minlength="200" rows="9" cols="96" placeholder="Tappez votre message ici" required></textarea><br><br><br>
+                <div id="check">
+                  <input type="checkbox" id="consent" name="consent" required>
+                  <label for="consent">J'accepte d'être recontacté</label>
+                </div>
+                <button type="submit" id="buttonSub">Envoyer</button>
             </form>
         </div>
     </section>

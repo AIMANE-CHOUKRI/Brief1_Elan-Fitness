@@ -545,21 +545,51 @@ button:focus-visible {
   font-size: 13px;
   color: #94A3B8;
 }
+
+/* ______________________________________ Partie Contactez-Nous _____________________________________________ */
+
 #contactez-nous {
   border: #C2410C solid 15px;
+  width: fit-content;
   border-radius: 15px;
-  margin: 50px;
+  margin: 20px;
   padding: 4%;
+  background-color: white;
+  box-shadow: 0px 0px 15px #C2410C;
+}
+
+#mainContact {
+  display: flex;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#contactez-nous h1{
+  text-shadow: moccasin 3px 6px 1px;
 }
 
 #contactez-nous label{
-  font-size: xx-large;
+  font-size: x-large;
+  margin: auto;
+  text-shadow: moccasin 2px 2px 2px;
+}
+.bold {
+  font-weight: bold;
 }
 
 #contactez-nous input{
   border: 2px grey solid;
   border-radius: 4px;
   padding: 1%;
+}
+
+textarea {
+  border: 2px darkslategray solid;
+  border-radius: 6px;
+  resize: none;
+  margin-bottom: -3%;
+  margin-top: 2%;
+  font-size: 20px;
 }
 
 #titleContact {
@@ -571,4 +601,30 @@ button:focus-visible {
   padding: 2%;
   margin-top: -5%;
   font-size: 2cm;
+}
+
+form {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+button {
+  margin: 1vw;
+  background-color: #C2410C;
+  padding: 2vw;
+  font-size: larger;
+  color: white;
+  border: moccasin 3px solid;
+  border-radius: 6px;
+  margin-bottom: -2vw;
+}
+#buttonSub:hover {
+  box-shadow: #C2410C 0px 0px 6px;
+  cursor: pointer ;
+}
+#buttonSub:active {
+  background-color: moccasin;
+  color: #0F1B2D;
 }
