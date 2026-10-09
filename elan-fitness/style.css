@@ -550,7 +550,6 @@ button:focus-visible {
 
 #contactez-nous {
   border: #C2410C solid 15px;
-
   border-radius: 15px;
   margin: 20px;
   padding: 4%;
@@ -581,8 +580,7 @@ button:focus-visible {
   border-radius: 4px;
   padding: 1%;
   font-weight: bold;
-}
-#contactez-nous input:hover{
+} #contactez-nous input:hover{
   box-shadow: inset black 0px 0px 2px;
 }
 
@@ -594,13 +592,13 @@ textarea {
   margin-top: 2%;
   font-size: 20px;
   padding: 1%;
-}
-textarea:hover{
+} textarea:hover {
   box-shadow: inset black 0px 0px 2px;
 }
 
 #titleContact {
   border-bottom: 10px dashed #C2410C;
+  margin-bottom: -2vw;
 }
 
 #titleContact h1 {
@@ -624,36 +622,36 @@ button {
   border-radius: 6px;
   margin-bottom: -2vw;
   text-shadow: 0px 0px 2px moccasin;
-}
-#buttonSub:hover {
+} #buttonSub:hover {
   background-color: #f15010;
   box-shadow: #b0390a 0px 0px 6px;
   text-shadow: 0px 0px 7px moccasin;
   cursor: pointer ;
-}
-#buttonSub:active {
+} #buttonSub:active {
   background-color: #a5370b;
   text-shadow: 2px 2px 5px black;
   border-color: moccasin;
   color: white;
 }
+
 #labelMsg {
-  /* margin-top: 100vw;
-  margin-bottom: -2%; */
-  /* border-top: #C2410C dotted 4px; */
-  border-bottom: #C2410C dotted 4px;
+  border-bottom: #C2410C dotted 6px;
   padding: 1%;
 }
 
-#inputNom {
+#labelCheck:hover {
+  text-decoration: underline;
+}
+
+#nom {
   margin-left: 43px;
 }
-#inputPrenom {
-  margin-left: 1pxpx;
+#prenom {
+  margin-left: 1px;
 }
-#inputEmail {
+#email {
   margin-left: 19px;
 }
-#inputTel {
+#tel {
   margin-left: 22px;
 }
