@@ -582,6 +582,9 @@ button:focus-visible {
   border-radius: 4px;
   padding: 1%;
 }
+#contactez-nous input:hover{
+  box-shadow: inset black 0px 0px 2px;
+}
 
 textarea {
   border: 2px darkslategray solid;
@@ -590,6 +593,10 @@ textarea {
   margin-bottom: -3%;
   margin-top: 2%;
   font-size: 20px;
+  padding: 1%;
+}
+textarea:hover{
+  box-shadow: inset black 0px 0px 2px;
 }
 
 #titleContact {
@@ -605,9 +612,6 @@ textarea {
 
 form {
   text-align: center;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 10px;
 }
 
 button {
@@ -619,12 +623,37 @@ button {
   border: moccasin 3px solid;
   border-radius: 6px;
   margin-bottom: -2vw;
+  text-shadow: 0px 0px 2px moccasin;
 }
 #buttonSub:hover {
-  box-shadow: #C2410C 0px 0px 6px;
+  background-color: #f15010;
+  box-shadow: #b0390a 0px 0px 6px;
+  text-shadow: 0px 0px 7px moccasin;
   cursor: pointer ;
 }
 #buttonSub:active {
-  background-color: moccasin;
-  color: #0F1B2D;
+  background-color: #a5370b;
+  text-shadow: 2px 2px 5px black;
+  border-color: moccasin;
+  color: white;
+}
+#labelMsg {
+  /* margin-top: 100vw;
+  margin-bottom: -2%; */
+  /* border-top: #C2410C dotted 4px; */
+  border-bottom: #C2410C dotted 4px;
+  padding: 1%;
+}
+
+#inputNom {
+  margin-left: 43px;
+}
+#inputPrenom {
+  margin-left: 1pxpx;
+}
+#inputEmail {
+  margin-left: 19px;
+}
+#inputTel {
+  margin-left: 22px;
 }
