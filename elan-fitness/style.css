@@ -545,3 +545,111 @@ button:focus-visible {
   font-size: 13px;
   color: #94A3B8;
 }
+
+/* ______________________________________ Partie Contactez-Nous _____________________________________________ */
+
+#contactez-nous {
+  border: #C2410C solid 15px;
+  border-radius: 15px;
+  margin: 20px;
+  padding: 4%;
+  background-color: white;
+  box-shadow: 0px 0px 15px #C2410C;
+}
+
+#mainContact {
+  display: flex;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+#contactez-nous h1{
+  text-shadow: moccasin 3px 6px 1px;
+}
+
+#contactez-nous label{
+  font-size: x-large;
+  text-shadow: moccasin 2px 2px 2px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+#contactez-nous input{
+  border: 2px grey solid;
+  border-radius: 4px;
+  padding: 1%;
+  font-weight: bold;
+} #contactez-nous input:hover{
+  box-shadow: inset black 0px 0px 2px;
+}
+
+textarea {
+  box-shadow: #4B5563 0px 0px 1px;
+  border-radius: 6px;
+  resize: none;
+  margin-bottom: -3%;
+  margin-top: 2%;
+  font-size: 20px;
+  padding: 1%;
+} textarea:hover {
+  box-shadow: inset black 0px 0px 3px;
+}
+
+#titleContact {
+  border-bottom: 10px dashed #C2410C;
+  margin-bottom: -2vw;
+}
+
+#titleContact h1 {
+  text-align: center;
+  padding: 2%;
+  margin-top: -5%;
+  font-size: 2cm;
+}
+
+form {
+  text-align: center;
+}
+
+button {
+  margin: 1vw;
+  background-color: #C2410C;
+  padding: 2vw;
+  font-size: larger;
+  color: white;
+  border: moccasin 3px solid;
+  border-radius: 6px;
+  margin-bottom: -2vw;
+  text-shadow: 0px 0px 2px moccasin;
+} #buttonSub:hover {
+  background-color: #f15010;
+  box-shadow: #b0390a 0px 0px 6px;
+  text-shadow: 0px 0px 7px moccasin;
+  cursor: pointer ;
+} #buttonSub:active {
+  background-color: #a5370b;
+  text-shadow: 2px 2px 5px black;
+  border-color: moccasin;
+  color: white;
+}
+
+#labelMsg {
+  border-bottom: #C2410C dotted 6px;
+  padding: 1%;
+}
+
+#labelCheck:hover {
+  text-decoration: underline;
+}
+
+#nom {
+  margin-left: 43px;
+} #prenom {
+  margin-left: 1px;
+} #email {
+  margin-left: 20px;
+} #numtel {
+  margin-left: 23px;
+}

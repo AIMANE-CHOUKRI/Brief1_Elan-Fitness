@@ -21,50 +21,37 @@
       <nav aria-label="Navigation principale">
         <ul class="menu">
           <li><a href="accueil.html">Accueil</a></li>
-          <li><a href="#a-propos" class="lien-actif">À propos</a></li>
+          <li><a href="apropos.html">À propos</a></li>
           <li><a href="programmes.html">Programmes</a></li>
-          <li><a href="contacteznous.html">Contactez-nous</a></li>
+          <li><a href="#contactez-nous" class="lien-actif">Contactez-nous</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <main>
-    <section id="a-propos" class="section">
-      <div class="conteneur apropos-contenu">
-
-        <div class="apropos-texte">
-          <p class="sur-titre">Notre histoire et notre mission</p>
-          <h2>Une communauté passionnée au cœur de Casablanca</h2>
-          <p>
-            Fondé avec la conviction que le sport doit être accessible, motivant et bienveillant,
-            Élan Fitness a été pensé comme un lieu d'énergie positive où chacun progresse à son rythme.
-          </p>
-          <p>
-            Que vous franchissiez pour la première fois la porte d'une salle ou que vous prépariez des
-            objectifs avancés, notre équipe de coachs certifiés vous accompagne au quotidien, sans
-            jugement et avec passion.
-          </p>
-
-          <ul class="valeurs">
-            <li class="valeur">
-              <div class="icone icone-petite"><img src="img/icone-check.svg" alt=""></div>
-              <span>Esprit bienveillant</span>
-            </li>
-            <li class="valeur">
-              <div class="icone icone-petite"><img src="img/icone-check.svg" alt=""></div>
-              <span>Suivi personnalisé</span>
-            </li>
-            <li class="valeur">
-              <div class="icone icone-petite"><img src="img/icone-check.svg" alt=""></div>
-              <span>Ambiance conviviale</span>
-            </li>
-          </ul>
+  <main id="mainContact">
+    <section id="contactez-nous">
+        <div id="divCon" class="conteneur">
+          <div id="titleContact"><h1>Contactez Nous</h1></div>
+            <br><br>
+            <form action="#contactez-nous" method="post">
+                <label for="nom" class="bold"> Nom </label>
+                    <input id="nom" type="text" name="nom" required><br>
+                <label for="prenom" class="bold"> Prénom </label>
+                    <input id="prenom" type="text" name="prenom" required><br>
+                <label for="email" class="bold"> E-mail </label>
+                    <input id="email" type="email" name="email" required><br>
+                <label for="numtel" class="bold"> N° Tél </label>
+                    <input id="numtel" type="tel" name="numtel" pattern="0[5-7][0-9]{8}" title="10 chiffres, par exemple 0612345678" placeholder="ex: 0663357492" required><br><br><hr><br>
+                <label id="labelMsg" for="msg" class="bold"> Saisissez votre message </label><br><br>
+                <textarea name="msg" id="msg" maxlength="300" rows="9" cols="80" placeholder="Tappez votre message ici - N° Charactères maximale est 300" required></textarea><br><br><br>
+                <div id="check">
+                  <input type="checkbox" id="consent" name="consent" required>
+                  <label for="consent" id="labelCheck">J'accepte d'être recontacté</label>
+                </div>
+                <button type="submit" id="buttonSub">Envoyer</button>
+            </form>
         </div>
-
-        <img class="apropos-image" src="img/equipe.jpg" alt="L'équipe de coachs d'Élan Fitness réunie dans la salle">
-
-      </div>
     </section>
   </main>
 
@@ -80,9 +67,9 @@
         <nav aria-label="Navigation du pied de page">
           <ul class="menu menu-pied">
             <li><a href="accueil.html">Accueil</a></li>
-            <li><a href="#a-propos">À propos</a></li>
+            <li><a href="apropos.html">À propos</a></li>
             <li><a href="programmes.html">Programmes</a></li>
-            <li><a href="contacteznous.html">Contactez-nous</a></li>
+            <li><a href="#contactez-nous">Contactez-nous</a></li>
           </ul>
         </nav>
       </div>
