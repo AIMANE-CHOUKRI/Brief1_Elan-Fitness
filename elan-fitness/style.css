@@ -550,7 +550,7 @@ button:focus-visible {
 
 #contactez-nous {
   border: #C2410C solid 15px;
-  width: fit-content;
+
   border-radius: 15px;
   margin: 20px;
   padding: 4%;
@@ -570,7 +570,6 @@ button:focus-visible {
 
 #contactez-nous label{
   font-size: x-large;
-  margin: auto;
   text-shadow: moccasin 2px 2px 2px;
 }
 .bold {
@@ -581,6 +580,7 @@ button:focus-visible {
   border: 2px grey solid;
   border-radius: 4px;
   padding: 1%;
+  font-weight: bold;
 }
 #contactez-nous input:hover{
   box-shadow: inset black 0px 0px 2px;
