@@ -560,7 +560,7 @@ button:focus-visible {
 #mainContact {
   display: flex;
   justify-content: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
 }
 
 #contactez-nous h1{
@@ -571,6 +571,7 @@ button:focus-visible {
   font-size: x-large;
   text-shadow: moccasin 2px 2px 2px;
 }
+
 .bold {
   font-weight: bold;
 }
@@ -585,7 +586,7 @@ button:focus-visible {
 }
 
 textarea {
-  border: 2px darkslategray solid;
+  box-shadow: #4B5563 0px 0px 1px;
   border-radius: 6px;
   resize: none;
   margin-bottom: -3%;
@@ -593,7 +594,7 @@ textarea {
   font-size: 20px;
   padding: 1%;
 } textarea:hover {
-  box-shadow: inset black 0px 0px 2px;
+  box-shadow: inset black 0px 0px 3px;
 }
 
 #titleContact {
@@ -645,13 +646,10 @@ button {
 
 #nom {
   margin-left: 43px;
-}
-#prenom {
+} #prenom {
   margin-left: 1px;
-}
-#email {
-  margin-left: 19px;
-}
-#numtel {
-  margin-left: 22px;
+} #email {
+  margin-left: 20px;
+} #numtel {
+  margin-left: 23px;
 }
